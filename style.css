@@ -387,6 +387,10 @@ body {
   .hero-text h1 {
     font-size: 34px
   }
+
+  .social {
+    justify-content: center;
+  }
 }
 
 @media(max-width:420px) {
@@ -403,13 +407,18 @@ body {
   }
 
   .ring {
-    width: 300px;
-    height: 300px
+    width: 280px;
+    height: 280px;
   }
 
   .ring2 {
-    width: 240px;
-    height: 240px
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-image img {
+    width: 160px;
+    height: 160px;
   }
 }
 
